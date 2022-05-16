@@ -1,0 +1,38 @@
+@import "../mixins";
+
+.instalaciones {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+
+    .row {
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+        @include tablet {
+            flex-direction: column;
+        }
+    .instalaciones-col {
+        flex-basis: 31%;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        text-align: left;
+
+        img {
+            width: 100%;
+            border-radius: 10px;
+            height: auto;
+        }
+
+        p {
+            padding: 0;
+        }
+        h3 {
+            margin-top: 16px;
+            margin-bottom: 15px;
+            text-align: left;
+        }
+    }
+}
+}

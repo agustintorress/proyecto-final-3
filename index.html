@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Colegio de coderhouse, ahora con nuevas instalaciones para el disfrutar de sus estudiantes, inscribite ahora y obten tu carrera">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Escuela Coder House</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html"><img src="images/logo.svg" alt="logo"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="#campus">Campus</a></li>
+                    <li><a href="#instalaciones">Instalaciones</a></li>
+                    <li><a href="#about">Sobre Nosotros</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="texto">
+            <h1>Colegio Coder House</h1>
+            <p>Queres ser un programador como los tutores de este admirable colegio? Entonces que esperas para unirte.</p>
+            <a href="#" class="boton-texto">Vistanos para saber mas</a>
+        </div>
+    </header>
+
+<!-- Cursos -->
+
+<section class="cursos" id="cursos">
+    <h1>Cursos que ofrecemos</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, commodi suscipit! Fuga sapiente expedita molestias.</p>
+
+    <div class="row">
+        <div class="cursos-columna">
+            <h3>Curso 1</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, fuga? Ab non saepe, facilis vitae voluptatum consequuntur quaerat? Nemo, dolorem!</p>
+        </div>
+        <div class="cursos-columna">
+            <h3>Curso 2</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, fuga? Ab non saepe, facilis vitae voluptatum consequuntur quaerat? Nemo, dolorem!</p>
+        </div>
+        <div class="cursos-columna">
+            <h3>Curso 3</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod, fuga? Ab non saepe, facilis vitae voluptatum consequuntur quaerat? Nemo, dolorem!</p>
+        </div>
+    </div>
+</section>
+
+<!-- Campus -->
+
+<section class="campus" id="campus">
+    <h1>Nuestro Campus</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, delectus.</p>
+
+    <div class="row">
+        <div class="columna-campus">
+            <img src="images/campus1.jpg" alt="campus-argentina">
+            <div class="capa">
+                <h3>ARGENTINA</h3>
+            </div>
+        </div>
+        <div class="columna-campus">
+            <img src="images/campus1.jpg" alt="campus-argentina">
+            <div class="capa">
+                <h3>BRASIL</h3>
+            </div>
+        </div>
+        <div class="columna-campus">
+            <img src="images/campus1.jpg" alt="campus-argentina">
+            <div class="capa">
+                <h3>CHILE</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Instalaciones -->
+
+<section class="instalaciones" id="instalaciones">
+    <h1>Nuestras Instalaciones</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+        <div class="instalaciones-col">
+            <img src="images/computacion.jpg" alt="sala-de-computacion">
+            <h3>Salas De Computacion</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa excepturi ipsum perspiciatis veritatis, dignissimos obcaecati!</p>
+        </div>
+        <div class="instalaciones-col">
+            <img src="images/descanso.jpg" alt="sala-de-descanso">
+            <h3>Salas de Descanso</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa excepturi ipsum perspiciatis veritatis, dignissimos obcaecati!</p>
+        </div>
+        <div class="instalaciones-col">
+            <img src="images/cafeteria.jpg" alt="cafeteria">
+            <h3>Cafeteria</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa excepturi ipsum perspiciatis veritatis, dignissimos obcaecati!</p>
+        </div>
+    </div>
+</section>
+
+<!-- footer -->
+
+<footer>
+    <h4 id="about">Sobre Nosotros</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, delectus!</p>
+    <p>Provident molestiae reiciendis sunt eos necessitatibus quam quibusdam consequuntur excepturi fuga!</p>
+    <div class="sociales">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+    </div>
+</footer>
+
+<!-- Javascript para menu -->
+    <script>
+
+        var navLinks = document.getElementById("nav-links");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
