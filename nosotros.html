@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Colegio de coderhouse, ahora con nuevas instalaciones para el disfrutar de sus estudiantes, inscribite ahora y obten tu carrera">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Escuela Coder House</title>
+</head>
+
+<body>
+
+
+    <section class="sub-header">
+        <nav class="navbar">
+            <a href="index.html"><img src="images/logo.svg" alt="logo"></a>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="index.html">Cursos</a></li>
+                    <li><a href="index.html">Campus & Instalaciones</a></li>
+                    <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Sobre Nosotros</h1>
+    </section>
+
+    <!-- Sobre nosotros -->
+
+    <section class="nosotros">
+        <div class="row">
+            <div class="nosotros-col">
+                <h2>Somos la universidad mas grande del pais.</h2>
+                <p>Somos la primera School de programacion en Argentina. Fundada en 2022 en Buenos Aires, nacimos como una simple escuela de programación. Nuestro foco siempre estuvo puesto en la educación digital; nacimos para crear alternativas a lo tradicional y revolucionar el mundo de la educación.Con los años, no solo crecimos en variedad de cursos sino que también nos expandimos por Argentina, Uruguay y Chile. Queremos impactar en la educación latinoamericana y dejar nuestra huella en cada curso y estudiante, mejorando la calidad educativa en cada lugar.</p>
+                <a href="#" class="boton-texto">Explora AHORA!</a>
+            </div>
+            <div class="nosotros-col">
+                <img src="images/reunion.jpg" alt="reunion-de-gente">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+        <h4 id="about">Sobre Nosotros</h4>
+        <p>Hoy somos una de las mejores startups de Buenos Aires.</p>
+        <p>Dictamos cursos en Buenos Aires, Córdoba, Corrientes, La Plata, Mendoza, Rosario, Montevideo y Santiago de Chile.</p>
+        <div class="sociales">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+    </footer>
+
+    <!-- Javascript para menu -->
+    <script>
+
+        var navLinks = document.getElementById("nav-links");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+    </body>
+    </html>

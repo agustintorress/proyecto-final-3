@@ -1,7 +1,6 @@
 {
   "name": "proyecto-final3",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build-css": "node-sass --include-path scss sass/sass.scss css/style.css",
@@ -13,5 +12,15 @@
   "dependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.16"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agustintorress/proyecto-final-3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/agustintorress/proyecto-final-3/issues"
+  },
+  "homepage": "https://github.com/agustintorress/proyecto-final-3#readme",
+  "description": ""
 }

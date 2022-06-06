@@ -1,24 +1,24 @@
-header nav {
+.header .navbar, .sub-header .navbar {
   align-items: center; }
 
-header {
+.header {
   min-height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../../images/colegio.jpg);
   background-position: center;
   background-size: cover;
   position: relative; }
-  header nav {
+  .header .navbar {
     display: flex;
     padding: 2% 6%;
     justify-content: space-between; }
-    header nav img {
+    .header .navbar img {
       width: 150px; }
-  header .nav-links {
+  .header .nav-links {
     flex: 1;
     text-align: right; }
     @media screen and (max-width: 700px) {
-      header .nav-links {
+      .header .nav-links {
         position: absolute;
         background: #f44336;
         height: 100vh;
@@ -28,24 +28,24 @@ header {
         text-align: left;
         z-index: 2;
         transition: 1s; } }
-  header .nav-links ul {
+  .header .nav-links ul {
     padding: 30px; }
-  header .nav-links ul li {
+  .header .nav-links ul li {
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative; }
     @media screen and (max-width: 700px) {
-      header .nav-links ul li {
+      .header .nav-links ul li {
         display: block; } }
-  header .nav-links ul li a {
+  .header .nav-links ul li a {
     color: #fff;
     font-size: 13px;
     text-decoration: none;
     transition: 0.2s; }
-  header .nav-links ul li a:hover {
+  .header .nav-links ul li a:hover {
     border-bottom: 3px #f44336 solid; }
-  header .texto {
+  .header .texto {
     width: 90%;
     color: #fff;
     position: absolute;
@@ -53,16 +53,16 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
-  header .texto h1 {
+  .header .texto h1 {
     font-size: 62px; }
     @media screen and (max-width: 700px) {
-      header .texto h1 {
+      .header .texto h1 {
         font-size: 20px; } }
-  header .texto p {
+  .header .texto p {
     margin: 10px 0 40px;
     font-size: 14px;
     color: #fff; }
-  header .boton-texto {
+  .header .boton-texto {
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -72,14 +72,14 @@ header {
     background: transparent;
     position: relative;
     cursor: pointer; }
-    header .boton-texto:hover {
+    .header .boton-texto:hover {
       border: 1px solid #f44336;
       background: #f44336;
       transition: 1s; }
-  header nav .fa {
+  .header nav .fa {
     display: none; }
     @media screen and (max-width: 700px) {
-      header nav .fa {
+      .header nav .fa {
         display: block;
         color: #fff;
         margin: 10px;
@@ -209,6 +209,239 @@ footer {
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0; }
+
+.header .navbar, .sub-header .navbar {
+  align-items: center; }
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../../images/colegio.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative; }
+  .header .navbar {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between; }
+    .header .navbar img {
+      width: 150px; }
+  .header .nav-links {
+    flex: 1;
+    text-align: right; }
+    @media screen and (max-width: 700px) {
+      .header .nav-links {
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s; } }
+  .header .nav-links ul {
+    padding: 30px; }
+  .header .nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative; }
+    @media screen and (max-width: 700px) {
+      .header .nav-links ul li {
+        display: block; } }
+  .header .nav-links ul li a {
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    transition: 0.2s; }
+  .header .nav-links ul li a:hover {
+    border-bottom: 3px #f44336 solid; }
+  .header .texto {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
+  .header .texto h1 {
+    font-size: 62px; }
+    @media screen and (max-width: 700px) {
+      .header .texto h1 {
+        font-size: 20px; } }
+  .header .texto p {
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff; }
+  .header .boton-texto {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer; }
+    .header .boton-texto:hover {
+      border: 1px solid #f44336;
+      background: #f44336;
+      transition: 1s; }
+  .header nav .fa {
+    display: none; }
+    @media screen and (max-width: 700px) {
+      .header nav .fa {
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer; } }
+
+.sub-header {
+  height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../../images/subheader.jpg);
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: #fff; }
+  .sub-header .navbar {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between; }
+    .sub-header .navbar img {
+      width: 150px; }
+  .sub-header .nav-links {
+    flex: 1;
+    text-align: right; }
+    @media screen and (max-width: 700px) {
+      .sub-header .nav-links {
+        position: absolute;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 1s; } }
+  .sub-header .nav-links ul {
+    padding: 30px; }
+  .sub-header .nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative; }
+    @media screen and (max-width: 700px) {
+      .sub-header .nav-links ul li {
+        display: block; } }
+  .sub-header .nav-links ul li a {
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    transition: 0.2s; }
+  .sub-header .nav-links ul li a:hover {
+    border-bottom: 3px #f44336 solid; }
+  .sub-header nav .fa {
+    display: none; }
+    @media screen and (max-width: 700px) {
+      .sub-header nav .fa {
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer; } }
+  .sub-header h1 {
+    margin-top: 100px; }
+
+.nosotros {
+  width: 80%;
+  margin: auto;
+  padding-top: 80px;
+  padding-bottom: 50px; }
+  .nosotros .row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between; }
+    @media screen and (max-width: 700px) {
+      .nosotros .row {
+        flex-direction: column; } }
+  .nosotros .nosotros-col {
+    flex-basis: 48%;
+    padding: 30px 2px; }
+    .nosotros .nosotros-col img {
+      width: 100%; }
+    .nosotros .nosotros-col h1 {
+      padding-top: 0; }
+    .nosotros .nosotros-col p {
+      padding: 15px 0 25px; }
+    .nosotros .nosotros-col .boton-texto {
+      display: inline-block;
+      text-decoration: none;
+      color: #f44336;
+      border: 1px solid #f44336;
+      padding: 12px 34px;
+      font-size: 13px;
+      background: transparent;
+      position: relative;
+      cursor: pointer; }
+      .nosotros .nosotros-col .boton-texto:hover {
+        color: #fff;
+        border: 1px solid #f44336;
+        background: #f44336;
+        transition: 1s; }
+
+.contacto {
+  width: 80%;
+  margin: auto; }
+  .contacto .row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between; }
+    @media screen and (max-width: 700px) {
+      .contacto .row {
+        flex-direction: column; } }
+  .contacto .contacto-col {
+    flex-basis: 48%;
+    margin-bottom: 30px; }
+    .contacto .contacto-col .fa, .contacto .contacto-col .fa-solid {
+      font-size: 28px;
+      color: #f44336;
+      margin: 10px;
+      margin-right: 30px; }
+    .contacto .contacto-col p {
+      padding: 0;
+      color: #555; }
+    .contacto .contacto-col h5 {
+      font-size: 20px;
+      margin-bottom: 5px;
+      color: #555;
+      font-weight: 400; }
+
+form input, form textarea {
+  width: 90%;
+  padding: 15px;
+  margin: 15px;
+  outline: none;
+  border: 1px solid #ccc; }
+
+form .boton-texto {
+  display: inline-block;
+  text-decoration: none;
+  color: #f44336;
+  border: 1px solid #f44336;
+  padding: 12px 34px;
+  margin-left: 18px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer; }
+  form .boton-texto:hover {
+    color: #fff;
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s; }
 
 * {
   box-sizing: border-box;
